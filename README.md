@@ -1,0 +1,2 @@
+# Smart-Recycling-Guide
+Smart Recycling Guide is a user-friendly website that provides practical guidance for recycling, composting, reusing, donating, and safely disposing of everyday waste. It includes a waste search feature, recycling tips, and location-based access to nearby recycling centres. The project aims to promote environmental awareness, reduce waste pollution, and encourage sustainable living.  Technologies Used: HTML, CSS, JavaScript.  Goal: Reduce Waste • Reuse More • Recycle Better

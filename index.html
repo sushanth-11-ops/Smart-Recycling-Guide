@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Recycling Guide</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>♻ Smart Recycling Guide</h1>
+    <p>Reduce Waste • Reuse More • Recycle Better</p>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#guide">Recycling Guide</a>
+        <a href="#compost">Composting</a>
+        <a href="#donate">Reuse & Donate</a>
+        <a href="#location">Nearby Centres</a>
+    </nav>
+</header>
+
+<section class="hero" id="home">
+    <h2>Make Our Planet Cleaner and Greener!</h2>
+    <p>Find the right way to recycle, reuse, compost and dispose of everyday waste.</p>
+    <a class="btn" href="#guide">Explore Guide</a>
+</section>
+
+<section class="search-section" id="guide">
+    <h2>Find Your Waste Solution</h2>
+    <p>Enter a waste item to know how to manage it.</p>
+    <input type="text" id="wasteInput"
+           placeholder="Example: Plastic bottle">
+    <button onclick="searchWaste()">Search</button>
+    <div id="result"></div>
+</section>
+
+<section class="features">
+    <h2>Our Services</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>♻ Recycling</h3>
+            <p>Learn how to recycle plastic, paper, glass and metals.</p>
+        </div>
+        <div class="card" id="compost">
+            <h3>🌱 Composting</h3>
+            <p>Convert vegetable peels, fruit waste and dry leaves into natural manure.</p>
+        </div>
+        <div class="card" id="donate">
+            <h3>❤️ Reuse & Donate</h3>
+            <p>Reuse old products and donate usable clothes, books and toys.</p>
+        </div>
+        <div class="card">
+            <h3>🛡 Safe Disposal</h3>
+            <p>Learn how to dispose of batteries, medicines and electronic waste safely.</p>
+        </div>
+    </div>
+</section>
+
+<section class="information">
+    <h2>How to Manage Everyday Waste</h2>
+    <div class="cards">
+        <div class="card">
+            <h3>Plastic</h3>
+            <p>Empty and clean recyclable plastic containers. Give them to an appropriate waste collector.</p>
+        </div>
+        <div class="card">
+            <h3>Paper</h3>
+            <p>Collect newspapers, notebooks and cardboard separately for recycling.</p>
+        </div>
+        <div class="card">
+            <h3>Food Waste</h3>
+            <p>Use fruit peels, vegetable scraps and suitable garden waste for composting.</p>
+        </div>
+        <div class="card">
+            <h3>Electronic Waste</h3>
+            <p>Give old phones, chargers and electronic devices to authorised e-waste collection centres.</p>
+        </div>
+    </div>
+</section>
+
+<section class="location" id="location">
+    <h2>📍 Find Nearby Recycling Centres</h2>
+    <p>Allow location access to search for nearby recycling and waste collection facilities.</p>
+    <button onclick="findLocation()">Find Nearby Centres</button>
+    <div id="locationResult"></div>
+</section>
+
+<section class="tips">
+    <h2>Environmental Awareness Tips</h2>
+    <ul>
+        <li>Separate wet and dry waste.</li>
+        <li>Avoid single-use plastic products.</li>
+        <li>Carry reusable shopping bags.</li>
+        <li>Reuse materials whenever possible.</li>
+        <li>Save water and electricity.</li>
+        <li>Keep your surroundings clean.</li>
+    </ul>
+</section>
+
+<section class="conclusion">
+    <h2>Our Mission</h2>
+    <p>Our mission is to create a cleaner environment through proper waste management.
+    Small actions by every person can make a big difference to our planet.</p>
+</section>
+
+<footer>
+    <h3>♻ Smart Recycling Guide</h3>
+    <p>Save Nature | Reduce Pollution | Build a Better Future</p>
+    <p>© 2026 Smart Recycling Guide</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
